@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a214a1ba-206b-42de-94f7-408555f1edc0" name="Default" comment="" />
+=======
+    <list default="true" id="334df81a-3508-4593-bd4d-021497eeddad" name="Default" comment="" />
+>>>>>>> d9a022b19a52450396e51ce88ed0c215a76e0762
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+>>>>>>> d9a022b19a52450396e51ce88ed0c215a76e0762
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <created>1508296524520</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508296524520</updated>
+=======
+      <created>1508874250207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508874250207</updated>
+>>>>>>> d9a022b19a52450396e51ce88ed0c215a76e0762
     </task>
     <servers />
   </component>
