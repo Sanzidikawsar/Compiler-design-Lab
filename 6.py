@@ -1,22 +1,17 @@
-import pandas as pd
-
-df = pd.read_csv('symbol.csv')
-
-#addaing keyword from csv file and remove any NaN or empty row
-keyword = df['keyword'].dropna().values
-math_oprator = df['Arithmetic Operators'].dropna().values
-logical = df['Logical Operators'].dropna().values
-bitwise = df['Bitwise Operators'].dropna().values
-other = df['Other Operators'].dropna().values
+keyword = ['keyword', 'auto', 'break', 'case', 'char', 'const', 'continue' 'default', 'do', 'double', 'else', 'enum', 'extern', 'float',
+ 'for', 'goto', 'if', 'int', 'long', 'register', 'return',' short', 'signed', 'sizeof', 'static', 'struct', 'switch', 'typedef',
+ 'union', 'unsigned', 'void', 'volatile', 'while']
+math_oprator = ['+', '-', '*', '/', '=', '+=', '-=', '*=', '/=', '%=']
+logical = ['Err:520', '>', '<', '!=', '>=', '<=', '&&', '||', '!']
+bitwise = ['&', '|', '^', '~', '<<', '>>']
+other = [',', '{', '}', '(', ')', '[', ']']
 
 text = open('in', 'r')
 file = text.read()
 text.close()
 
-
 def lexical_analyzer(file):
     return file.split()
-
 
 def symbol_table(inputs):
     k = []
