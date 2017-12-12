@@ -10,11 +10,6 @@ text = open('in', 'r')
 file = text.read()
 text.close()
 
-
-def lexical_analyzer(file):
-    return file.split()
-
-
 def symbol_table(inputs):
     k = []
     m = []
@@ -66,9 +61,7 @@ def symbol_table(inputs):
 
     return outputs
 
-lexic = lexical_analyzer(file)
-
+lexic = file.split()
 table = symbol_table(inputs=lexic)
-
 for i in table:
     print(i, table[i])
