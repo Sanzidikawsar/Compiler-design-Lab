@@ -1,7 +1,7 @@
 <h2># Compiler design Lab Activity</h2>
 
 
-<h3>Solution numbers are as bellow- </h3>
+<h3>Solution numbers are as below- </h3>
 
 <h4>Task 1: Write a program to tokenize a sentences with raw codes. </br>
 Task 2: Write a program to tokenize a sentence using strtok() function. </br>
