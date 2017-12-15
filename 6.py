@@ -53,16 +53,17 @@ def symbol_table(inputs):
                         i.append(data)
 
     outputs = {
-        'Keywords': k,
-        'Identifiers': i,
-        'Math Operators': m,
-        'Logical Operators': l + b,
-        'Numerical Values': n + f,  # adding both flot and int value
-        'Others': o
+        'Keywords: ': k,
+        'Variables:': i,
+        'Operators': m + l + b,
+        'Constants: ': n + f,  # adding both flot and int value
+        'Special Symbols: ': o,
     }
 
     return outputs
 
-table = symbol_table(inputs=lexic)
+table = symbol_table(lexic)
 for i in table:
     print(i, table[i])
+
+print()
